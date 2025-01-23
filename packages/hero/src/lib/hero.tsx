@@ -1,7 +1,6 @@
 import styles from './hero.module.css';
-import React from 'react';
 export function Hero() {
-  
+
   return (
     <div className={styles.heroContainer}>
       <div className={styles.heroContent}>
