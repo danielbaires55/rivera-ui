@@ -1,5 +1,12 @@
 /* button.module.css */
-.button {
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .button {
     background-color: #f0f0f0;
     border: 2px solid #333;
     color: #333;
@@ -10,6 +17,7 @@
     transition: all 0.3s ease;
     font-weight: 500;
     outline: none;
+    width: 150px;
   }
   
   .button:hover {
