@@ -1,0 +1,9 @@
+{
+  "name": "rivera-ui-app",
+  "$schema": "../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "rivera-ui-app/src",
+  "projectType": "application",
+  "tags": [],
+  "// targets": "to see all targets run: nx show project rivera-ui-app --web",
+  "targets": {}
+}
