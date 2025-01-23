@@ -1,0 +1,64 @@
+/* HeroSection.module.css */
+.heroContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    text-align: center;
+  }
+  
+  .heroContent {
+    max-width: 800px;
+    padding: 2rem;
+  }
+  
+  .heroTitle {
+    font-size: 3.5rem;
+    color: #2c3e50;
+    margin-bottom: 1rem;
+    font-weight: 700;
+  }
+  
+  .heroSubtitle {
+    font-size: 1.2rem;
+    color: #34495e;
+    margin-bottom: 2rem;
+  }
+  
+  .heroCta {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  .ctaPrimary {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  .ctaSecondary {
+    background-color: transparent;
+    color: #3498db;
+    border: 2px solid #3498db;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .ctaPrimary:hover {
+    transform: scale(1.05);
+  }
+  
+  .ctaSecondary:hover {
+    background-color: #3498db;
+    color: white;
+  }
