@@ -1,6 +1,6 @@
 import styles from './hero.module.css';
-export function Hero() {
 
+export function Hero() {
   return (
     <div className={styles.heroContainer}>
       <div className={styles.heroContent}>

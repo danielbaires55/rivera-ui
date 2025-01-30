@@ -1,7 +1,9 @@
-import { Button } from "@rivera-ui/button";
-import { Header } from "@rivera-ui/header";
-import { Hero } from "@rivera-ui/hero";
-import { Grid } from "@rivera-ui/grid";
+import { Button } from '@rivera-ui/button';
+import { Header } from '@rivera-ui/header';
+import { Hero } from '@rivera-ui/hero';
+import { Grid } from '@rivera-ui/grid';
+import { PricingCard } from '@rivera-ui/pricingCard';
+
 
 export function App() {
   return (
@@ -9,7 +11,8 @@ export function App() {
       {/* <Button /> */}
       {/* <Header /> */}
       {/* <Hero /> */}
-      <Grid />
+      {/* <Grid /> */}
+      <PricingCard />
     </div>
   );
 }
