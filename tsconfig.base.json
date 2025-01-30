@@ -16,6 +16,7 @@
     "baseUrl": ".",
     "paths": {
       "@rivera-ui/button": ["packages/button/src/index.ts"],
+      "@rivera-ui/footer": ["packages/footer/src/index.ts"],
       "@rivera-ui/grid": ["packages/grid/src/index.ts"],
       "@rivera-ui/header": ["packages/header/src/index.ts"],
       "@rivera-ui/hero": ["packages/hero/src/index.ts"],

@@ -12,7 +12,7 @@ import FavoriteIcon from '@mui/icons-material/Favorite';
 import ShareIcon from '@mui/icons-material/Share';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import MoreVertIcon from '@mui/icons-material/MoreVert';
-import Box from '@mui/material/Box';  // Import Box to use flexbox
+import Box from '@mui/material/Box'; 
 
 export const PricingCard: React.FC = () => {
   const [expanded, setExpanded] = React.useState(false);
