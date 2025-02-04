@@ -10,11 +10,20 @@ export function Hero({ onComponentsClick }: HeroProps) {
       <div className={styles.heroContent}>
         <h1 className={styles.heroTitle}>App Library</h1>
         <p className={styles.heroSubtitle}>
-          A free, modern, and minimalist React UI library.
-          (This is the Hero component).
+          A free, modern, and minimalist React UI library. (This is the Hero
+          component).
         </p>
         <div className={styles.heroCta}>
-          <button className={styles.ctaPrimary}>Get Started</button>
+          <button className={styles.ctaPrimary}>
+            <a
+              href="https://rivera-ui-docs.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Docs
+            </a>
+          </button>
+
           <button className={styles.ctaSecondary} onClick={onComponentsClick}>
             Components
           </button>
