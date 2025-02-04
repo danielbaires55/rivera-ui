@@ -1,5 +1,5 @@
 {
-  "name": "@rivera-ui/pricingCard",
+  "name": "@rivera-ui/pricingcard",
   "version": "0.0.1",
   "main": "./index.js",
   "types": "./index.d.ts",
