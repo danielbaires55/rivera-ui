@@ -7,7 +7,6 @@ import IconButton from '@mui/material/IconButton';
 import MenuIcon from '@mui/icons-material/Menu';
 import { GiAbstract070 } from "react-icons/gi";
 
-
 export function Header() {
   return (
     <Box sx={{ flexGrow: 1 }}>

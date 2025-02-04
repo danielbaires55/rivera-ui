@@ -1,5 +1,4 @@
 import styles from './hero.module.css';
-
 interface HeroProps {
   onComponentsClick?: () => void;
 }
