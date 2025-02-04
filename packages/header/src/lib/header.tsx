@@ -5,6 +5,8 @@ import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
 import IconButton from '@mui/material/IconButton';
 import MenuIcon from '@mui/icons-material/Menu';
+import { GiAbstract070 } from "react-icons/gi";
+
 
 export function Header() {
   return (
@@ -21,8 +23,8 @@ export function Header() {
             <MenuIcon />
           </IconButton>
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-            News
-          </Typography>
+             Rivera-Ui <GiAbstract070 />
+          </Typography>         
           <Button color="inherit">Login</Button>
         </Toolbar>
       </AppBar>

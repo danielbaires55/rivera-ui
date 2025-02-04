@@ -1,20 +1,23 @@
-/* Grid.module.css */
 .gridContainer {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-    padding: 20px;
-    background-color: #f4f4f4;
-  }
-  
-  .gridItem {
-    background-color: white;
-    border-radius: 8px;
-    padding: 20px;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-    transition: transform 0.3s ease;
-  }
-  
-  .gridItem:hover {
-    transform: scale(1.05);
-  }
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.gridItem {
+  width: 30%;  
+  min-width: 280px; 
+  height: 200px; 
+  transition: transform 0.2s ease-in-out;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
+  border-radius: 12px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.gridItem:hover {
+  transform: translateY(-5px);
+}

@@ -8,7 +8,7 @@ export const Footer: React.FC = () => {
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
-        position: 'fixed',
+        position: 'relative',
         bottom: 0,
         width: '100%',
         backgroundColor: '#1976d2',
@@ -16,7 +16,7 @@ export const Footer: React.FC = () => {
       }}
     >
       <Typography variant="body2" color="white">
-        &copy; {new Date().getFullYear()} Your Company. All rights reserved. 
+        &copy; {new Date().getFullYear()} Rivera-Ui. All rights reserved. 
         <Link href="#" sx={{ color: 'white', textDecoration: 'none', marginLeft: 1 }}>
           Privacy Policy
         </Link> | 
