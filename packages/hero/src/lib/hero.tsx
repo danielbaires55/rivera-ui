@@ -13,15 +13,15 @@ export function Hero({ onComponentsClick }: HeroProps) {
           component).
         </p>
         <div className={styles.heroCta}>
-          <button className={styles.ctaPrimary}>
             <a
-              href="https://rivera-ui-docs.vercel.app/"
-              target="_blank"
-              rel="noopener noreferrer"
+            href="https://rivera-ui-docs.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
             >
+            <button className={styles.ctaPrimary}>
               Docs
+            </button>
             </a>
-          </button>
 
           <button className={styles.ctaSecondary} onClick={onComponentsClick}>
             Components
